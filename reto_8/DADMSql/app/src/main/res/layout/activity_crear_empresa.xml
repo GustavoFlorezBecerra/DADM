@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearEmpresaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+
+        <EditText
+            android:id="@+id/editTextNombreEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop = "20dp"
+            android:inputType="textPersonName"
+            android:hint="@string/nombre" />
+
+        <EditText
+            android:id="@+id/editTextUrlEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/editTextNombreEmpresa"
+            android:layout_marginTop = "10dp"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/url" />
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/editTextUrlEmpresa"
+            android:layout_marginTop = "10dp"
+            android:inputType="phone"
+            android:hint="@string/telefono" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/editTextTelefono"
+            android:layout_marginTop = "10dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email" />
+
+        <EditText
+            android:id="@+id/editTextProductosServicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_marginTop = "10dp"
+            android:inputType="textPersonName"
+            android:hint="@string/productos" />
+
+        <Spinner
+            android:id="@+id/spinnerClasificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextProductosServicios"
+            android:layout_marginTop = "10dp"
+            android:hint="@string/clasificacion"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerClasificacion"
+            android:layout_alignLeft="@+id/spinnerClasificacion"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop = "10dp"
+            android:onClick="ejecutar"
+            android:text="@string/save" />
+
+    </RelativeLayout>
+
+</ScrollView>

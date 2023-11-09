@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DADMSql</string>
+    <string name="save">Guardar</string>
+    <string name="nombre">Nombre empresa</string>
+    <string name="url">Url Empresa</string>
+    <string name="telefono">Telefono contacto</string>
+    <string name="email">Email contacto</string>
+    <string name="productos">Productos y servicios</string>
+    <string name="clasificacion">Clasificacion</string>
+    <string name="add_new">Registrar nuevo</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="eliminar_empresa">Eliminar Empresa</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="confirma_eliminacion">Confirma eliminacion</string>
+    <string-array name="clasificacion_array">
+        <item>(Seleccione Clasificacion)</item>
+        <item>Consultoria</item>
+        <item>Desarrollo a la medida</item>
+        <item>Fábrica de Software</item>
+    </string-array>
+</resources>
+
