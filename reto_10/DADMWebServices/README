@@ -1,0 +1,16 @@
+#Catalogo seleccionado
+
+https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Puntos-de-recolecci-n-de-Aparatos-el-ctricos-y-ele/c2fr-ezse
+https://dev.socrata.com/foundry/www.datos.gov.co/c2fr-ezse
+
+#Url del catalogo seleccionado.
+
+https://www.datos.gov.co/resource/c2fr-ezse.json
+
+#Ejemplo de filtro por codigo dane
+
+https://www.datos.gov.co/resource/c2fr-ezse.json?codigo_dane=54125
+
+#Ejemplo de filtro combinado codigo dane programa recoleccion
+
+https://www.datos.gov.co/resource/c2fr-ezse.json?codigo_dane=54398&programa_de_recolecci_n=Pilas%20con%20el%20Ambiente

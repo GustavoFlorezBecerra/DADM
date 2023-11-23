@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DADMWebServices</string>
+    <string name="titulo">Catalogo puntos recoleccion</string>
+    <string name="filtro_prog_recoleccion">Filtrar programa recoleccion</string>
+    <string name="filtro_codigo_dane">Filtrar Codigo Dane</string>
+    <string name="btn_consultar">Consultar catalogo</string>
+    <string name="programa_recoleccion">Programa de recolección</string>
+    <string name="tipo_residuos">Tipo de residuos</string>
+    <string name="departamento">Departamento</string>
+    <string name="municipio">Municipio</string>
+    <string name="codigo_dane">Codigo Dane</string>
+    <string name="direccion">Dirección</string>
+    <string name="razon_social">Razón Social</string>
+    <string name="btn_volver">Volver</string>
+</resources>

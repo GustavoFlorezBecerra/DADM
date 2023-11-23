@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogoDetalleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+
+    <EditText
+        android:id="@+id/editTextProgramaRecoleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop = "20dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/programa_recoleccion" />
+
+    <EditText
+        android:id="@+id/editTextTipoResiduos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editTextProgramaRecoleccion"
+        android:layout_marginTop = "10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/tipo_residuos" />
+
+    <EditText
+        android:id="@+id/editTextDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editTextTipoResiduos"
+        android:layout_marginTop = "10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/departamento" />
+
+    <EditText
+        android:id="@+id/editTextMunicipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editTextDepartamento"
+        android:layout_marginTop = "10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/municipio" />
+
+    <EditText
+        android:id="@+id/editTextCodigoDane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editTextMunicipio"
+        android:layout_marginTop = "10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/codigo_dane" />
+
+    <EditText
+        android:id="@+id/editTextDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editTextCodigoDane"
+        android:layout_marginTop = "10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/direccion" />
+
+    <EditText
+        android:id="@+id/editTextRazonSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editTextDireccion"
+        android:layout_marginTop = "10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/razon_social" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextRazonSocial"
+        android:layout_alignLeft="@+id/editTextRazonSocial"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop = "10dp"
+        android:onClick="volver"
+        android:text="@string/btn_volver" />
+
+    </RelativeLayout>
+</ScrollView>
